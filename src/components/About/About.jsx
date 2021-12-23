@@ -47,7 +47,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
-                    'My main interests are in machine learning, data science, web development, and app development'}
+                    'My main interests are in machine learning, data science, web development, and app development.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

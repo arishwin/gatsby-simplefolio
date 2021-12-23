@@ -41,7 +41,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'foodvision.jpg',
     title: 'Food Vision',
-    info: 'Food vision is a computer vision model that is able to classify different kinds of food. This model was build using neural networks in TensorFlow and was done as a challenge to beat DeepFood, a 2016 paper which used a Convuloutional Neural Network that was trained for 2-3 days to achieve 77.4% top-1 accuracy.',
+    info: 'Food Vision is a computer vision model that is able to classify different kinds of food. This model was build using neural networks in TensorFlow and was done as a challenge to beat DeepFood, a 2016 paper which used a Convuloutional Neural Network that was trained for 2-3 days to achieve 77.4% top-1 accuracy.',
     info2:
       "This model produced better results than the DeepFood paper and took far less time. (this model took around 20 minutes to train while DeepFood's model took around 2-3 days).",
     url: '',
