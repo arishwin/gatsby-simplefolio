@@ -16,6 +16,10 @@ export default function HTML({
   return (
     <html {...htmlAttributes}>
       <head>
+        <meta
+          name="google-site-verification"
+          content="a2Of4-05_Mc6SRAdDZEpnXdbIlCsbk8PxFhO9F_34tY"
+        />
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
