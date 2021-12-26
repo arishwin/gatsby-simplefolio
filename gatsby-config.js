@@ -26,7 +26,7 @@ module.exports = {
         short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        theme_color: `#16bffd`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },
