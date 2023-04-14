@@ -2,58 +2,50 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Arishwin Kishaan | Data Scientist', // e.g: 'Name | Developer'
+  title: 'Arishwin Kishaan | Software Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my webiste', // e.g: Welcome to my website
+  description: 'Welcome to my developer website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, my name is',
+  name: 'Arishwin Kishaan',
+  subtitle: "I'm a Software Engineer.",
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.dropbox.com/s/aqd68620czxrymx/resume.pdf?dl=0', // if no resume, the button will not show up
+  paragraphOne:
+    'I am a collaborative team player who enjoys working with others to deliver high-quality projects on time. I am constantly striving to improve my skills and stay up to date with the latest developments in the world of software development.',
+  paragraphTwo:
+    'In my free time, I enjoy exploring new technologies, experimenting with personal projects, and keeping up with industry trends. I am excited to share my knowledge and experience with others and to tackle new challenges in my personal and professional life.',
+  paragraphThree:
+    'I also enjoy learning new skills and technologies. I have recently obtained a masters degree in Applied Computing.',
+  resume: 'https://www.dropbox.com/s/j1c6oc453ebqg11/arishwin_resume_april.pdf?dl=0', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'bitpredict.jpg',
-    title: 'CryptoPredict',
-    info: 'CryptoPredict is a prediction model for Bitcoin. This model is created using neural networks and it is done as a challenge to see whether a neural network is able to predict something as volatile as bitcoin.',
+    img: 'chatbot.png',
+    title: 'Hilti Chatbot',
+    info: 'Hilti Chatbot is a chatbot designed for Hilti Asia IT Services. The chatbot is designed to automate complex tasks by using RPA and natural language processing, which helps to reduce the number of customer service enquiries and increase customer satisfaction.',
     info2:
-      "The model performed well and it was able to predict the price of Bitcoin with a low error-rate. However, after some unlikely data points were added to the dataset, the model's performance significantly dropped and was rendered useless. This is a common problem in forecasting and it's also known as ",
-    info3: 'https://www.convexresearch.com.br/en/insights/the-turkey-problem-2',
+      'The chatbot managed to automate 50% of the tasks that were previously done by the customer service team. This includes tasks such as asking for a quotation, retrieving manuals, checking specific product information, and more.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'foodvision.jpg',
-    title: 'Food Vision',
-    info: 'Food Vision is a computer vision model that is able to classify different kinds of food. This model was build using neural networks in TensorFlow and was done as a challenge to beat DeepFood, a 2016 paper which used a Convuloutional Neural Network that was trained for 2-3 days to achieve 77.4% top-1 accuracy.',
+    img: 'cryptotrading.png',
+    title: 'Crypto Trading Bot',
+    info: 'Crypto Trading Bot was a trading bot designed to trade cryptocurrencies on the Binance and Luno exchanges. The bot was designed to look for arbritrage opportunities between the two exchanges and execute trades accordingly.',
     info2:
-      "This model produced better results than the DeepFood paper and took far less time. (this model took around 20 minutes to train while DeepFood's model took around 2-3 days).",
-    url: '',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'medpub.jpeg',
-    title: 'MedAbstract',
-    info: 'MedAbstract is a neural network model that is designed to read through medical research papers and provide an abstract of the research paper. This model uses natural language processing which helps identify important keywords in the medical papers. The goal of this project was to create something that can help researches to go through medical papers faster and more efficiently.',
-    info2:
-      'The model created in this project performed well in tests and managed to get an accuracy score of 82.40%.',
+      'The bot was designed using Python and the Binance and Luno APIs. The bot not only reduced the time and stress of manually trading cryptocurrencies, but also managed be profitable in the long run.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
